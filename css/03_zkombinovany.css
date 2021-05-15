@@ -59,26 +59,74 @@ body {
   border-radius: 2rem;
 }
 
-#kostka {
-  width: 30px;
-  height: 30px;
-  background: blue;
+#space {
+  height: 100px;
+  width: 100px;
   position: relative;
-  -webkit-animation: mymove 1s infinite ease-out;
-          animation: mymove 1s infinite ease-out;
 }
 
-@-webkit-keyframes mymove {
+.kostka21 {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  background: blue;
+  position: relative;
+  border: black;
+  display: block;
+  -webkit-animation: mymove2 0.5s infinite ease;
+          animation: mymove2 0.5s infinite ease;
+  animation-direction: alternate-reverse;
+}
+
+.kostka22 {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  background: blue;
+  position: relative;
+  border: black;
+  display: block;
+  -webkit-animation: mymove2 0.5s infinite ease;
+          animation: mymove2 0.5s infinite ease;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+  animation-direction: alternate-reverse;
+}
+
+.kostka23 {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  background: blue;
+  position: relative;
+  border: black;
+  display: block;
+  -webkit-animation: mymove2 0.5s infinite ease;
+          animation: mymove2 0.5s infinite ease;
+  -webkit-animation-delay: 0.75s;
+          animation-delay: 0.75s;
+  animation-direction: alternate-reverse;
+}
+
+#jedna {
+  display: none;
+}
+
+#pet {
+  display: none;
+}
+
+@-webkit-keyframes mymove2 {
   100% {
-    -webkit-transform: translate(400px) scale(2);
-            transform: translate(400px) scale(2);
+    -webkit-transform: translateY(-50px);
+            transform: translateY(-50px);
   }
 }
 
-@keyframes mymove {
+@keyframes mymove2 {
   100% {
-    -webkit-transform: translate(400px) scale(2);
-            transform: translate(400px) scale(2);
+    -webkit-transform: translateY(-50px);
+            transform: translateY(-50px);
   }
 }
 

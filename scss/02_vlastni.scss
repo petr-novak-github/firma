@@ -61,17 +61,92 @@ body {
     }
 }
 
-#kostka {
-    width: 30px;
-    height: 30px;
+// #kostka {
+//     width: 30px;
+//     height: 30px;
+//     background: blue;
+//     position: relative;
+//     animation: mymove 1s infinite ease-out;
+//   }
+  
+//   @keyframes mymove {
+//    100% {
+//        transform: translate(400px) scale(2) ;
+//    }
+
+//   }
+
+// .loading2 {
+
+//     height: 200px;
+// }
+
+#space {
+    height: 100px;
+    width: 100px;
+    // background-color:red;
+    position: relative;
+    // display: none;
+}
+
+  .kostka21 {
+
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
     background: blue;
     position: relative;
-    animation: mymove 1s infinite ease-out;
+    border: black;
+    display: block;
+    animation: mymove2 0.5s infinite ease ;
+    animation-direction: alternate-reverse;
   }
-  
-  @keyframes mymove {
-   100% {
-       transform: translate(400px) scale(2) ;
-   }
 
+  .kostka22 {
+
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background: blue;
+    position: relative;
+    border: black;
+    display: block;
+    animation: mymove2 0.5s infinite ease ;
+    animation-delay: 0.5s;
+    animation-direction: alternate-reverse;
   }
+  .kostka23 {
+
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background: blue;
+    position: relative;
+    border: black;
+    display: block;
+    animation: mymove2 0.5s infinite ease ;
+    animation-delay: 0.75s;
+    animation-direction: alternate-reverse;
+  }
+
+
+
+  #jedna {
+
+    display: none;
+  }
+
+  #pet {
+
+    display: none;
+  }
+
+  
+  @keyframes mymove2 {
+       100% {
+           transform: translateY(-50px);
+       }
+
+    }
+
+  
