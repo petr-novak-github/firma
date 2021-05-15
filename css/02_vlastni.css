@@ -58,4 +58,27 @@ body {
   font-size: 1.5rem;
   border-radius: 2rem;
 }
+
+#kostka {
+  width: 30px;
+  height: 30px;
+  background: blue;
+  position: relative;
+  -webkit-animation: mymove 1s infinite ease-out;
+          animation: mymove 1s infinite ease-out;
+}
+
+@-webkit-keyframes mymove {
+  100% {
+    -webkit-transform: translate(400px) scale(2);
+            transform: translate(400px) scale(2);
+  }
+}
+
+@keyframes mymove {
+  100% {
+    -webkit-transform: translate(400px) scale(2);
+            transform: translate(400px) scale(2);
+  }
+}
 /*# sourceMappingURL=02_vlastni.css.map */
