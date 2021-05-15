@@ -1,0 +1,19 @@
+fiktivní firemní web:
+
+Zařiďte s pomocí SASS preprocesoru a kompilátoru změnu primary Bootstrap barvy tak, aby odpovídala zvolenému barevnému schématu vašeho webu a aplikujte ji na tlačítko, které spouští modal. Použijte strukturu a provázání .sass souborů stejně jako v ukázkovém projektu, kompilátor si pak zvolte jakýkoliv.
+
+Bootstrap (verze jakou chcete), single-page prezentace, plně responzivní, smooth scroll, při tvorbě webu dodržovat všechny základní zásady webdesignu, které jsme probírali v základním kurzu (barevné schéma, typografie, ikony, white space, atd.)
+
+1.sekce: navbar, podkladový obrázek, na něm název firmy pod ním motto firmy a pod mottem (ale vše pořád na podkladovém obrázku) tlačítko s modalem (bude obsahovat jednoduchý objednávkový formulář), který se automaticky objeví při loadu stránky - netřeba tedy klikat (je to easy, stačí trošku pogůglit a správně naimplementovat :) ). 
+
+2.sekce: o firmě, vlevo carousel s maximem ovládacích prvků (tedy s šipkami doleva a doprava a s přepínacími čirkami či kroužky dole) a popisky vhodně upravenými pro co nelepší čitelnost. A vpravo odstavec s textem, kdy pár slov bude zvýrazněných (jiným výrazným fontem vybraným z google fonts), na těchto pár slov pak aplikovat tooltip. Sekce bude rozdělena v poměru 8:4.
+
+3.sekce: čím se firma zabývá - neřeště pomocí cards! 3 části, každá bude obsahovat obrázek a kratší odstavec textu. Na malých displejích budou tyto 3 části nastackovány pod sebe a obrázky nebudou vidět. Pro kontrolu responzivity nemanipulujte oknem prohlížeče, ale používejte Device toolbar v nástrojích pro vývojáře – CTRL+SHIFT+I (ukazovali jsme si jej ve výuce). 
+
+4.sekce: ceník služeb pomocí bootstrapové tabulky - viz dokumentace - vhodně ostylovaný o velikosti minimálně 3*4 buněk.
+
+5.sekce: kontakty + patička - vlevo kontaktní údaje (adresa, mail, telefon, atd) kde budou nějak použity ikonky z fontawesome (nebo nějaké jiné banky), vpravo gůgl mapa. Pod tím jednoduchý kontaktní formulář a ještě pod nim jednoduché menu - nav (podobně jak jsme to měli v projektu)
+
+Nakonec přidejte do menu novou položku Icon, otevře se nová stránka jejímž jediným obsahem bude vycentrovaná loading icon podle vzoru (loading_icons.wmv - druhá ikona)
+Dále zařiďte, aby na tlačítko v úvodní sekci webu byla aplikována animace podle vzoru button_v2.wmv
+
